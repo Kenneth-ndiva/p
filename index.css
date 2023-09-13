@@ -1,0 +1,52 @@
+.Music {
+  display: flex; /* creating a flex container*/
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 12px;
+}
+/* img {
+  width: 30px;
+} */
+.order-summary {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+}
+p {
+  width: 70%;
+  text-align: center;
+}
+.howto {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  align-items: center;
+  padding: 10px 10px;
+  gap: 20px;
+}
+.howto img {
+  margin-right: 10p;
+}
+button {
+  width: 70%;
+  margin: 10px 0;
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+}
+.blue {
+  background-color: hsl(245, 75%, 52%);
+}
+.transparent {
+  border: none;
+}
+h2 {
+  font-size: 15px;
+}
